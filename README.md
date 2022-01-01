@@ -3,7 +3,7 @@ Extremely basic Discord Bot.
 
 ## Features
 - [x] Announcement
-- [x] Polls
+- [x] Poll
 - [x] Suggestion
 - [x] Ping 
 
