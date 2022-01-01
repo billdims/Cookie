@@ -5,11 +5,11 @@ A extremely basic Discord Bot coded by me in 10 minutes.
 - Python
 
 ## Features
-- [x] Announcement
-- [x] Poll
-- [x] Suggestion
-- [x] Ping 
+- Announcement
+- Poll
+- Suggestion
+- Ping 
 
 ## Punishments
-- [x] Ban
-- [x] Mute
+- Ban
+- Mute
