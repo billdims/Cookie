@@ -73,7 +73,7 @@ async def ban(ctx, member: discord.Member, *, reason=None):
 async def mute(ctx, member: discord.Member, reason=None):
     role = discord.utils.get(ctx.guild.roles, name='Muted')
     await member.add_roles(role)
-    embed = discord.Embed(title='Mute',description=f'{member.mention} has been muted by {ctx.author.mention}', color=discord.Color.orange())
+    embed = discord.Embed(title='Mute',description=f'{member.mention} has been muted by {ctx.author.mention}', color=discord.Color.purple())
     embed.add_field(name='Reason', value=reason, inline=False)
     await ctx.send(embed=embed)
 
